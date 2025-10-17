@@ -1,4 +1,4 @@
-![Python Logo]([https://fastnetmon.com/wp-content/uploads/2016/08/python-logo.png])
+![Python Logo]([Python-logo-notext.svg.png])
 
 # My-Python-Programming
 The storage for all Python codes, projects, and works
