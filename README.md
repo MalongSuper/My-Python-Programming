@@ -7,6 +7,8 @@ The storage for all Python codes, projects, and works
 
 Python.org: https://www.python.org/
 
+Visual Studio Code: https://code.visualstudio.com/download
+
 PyCharm: https://www.jetbrains.com/pycharm/download/?section=mac
 
 Thonny: https://thonny.org
