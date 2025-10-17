@@ -1,6 +1,6 @@
 <img src="./Python-logo-notext.svg.png" alt="Python Logo" width="200"/>
 
-# My-Python-Programming
+# My Python Programming
 The storage for all Python codes, projects, and works
 
 ## Useful Python tools
