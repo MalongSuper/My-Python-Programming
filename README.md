@@ -1,7 +1,7 @@
 # My-Python-Programming
 The storage for all Python codes, projects, and works
 
-Useful Python tools:
+## Useful Python tools
 
 Python.org: https://www.python.org/
 
@@ -11,7 +11,7 @@ Thonny: https://thonny.org
 
 Python Compiler Online: https://www.programiz.com/python-programming/online-compiler/
 
-My Python Courses:
+## My Python Courses
 
 Python Programming: https://dune-web-e44.notion.site/Python-Programming-264622d60556806b825befe8923bb26d?source=copy_link
 
