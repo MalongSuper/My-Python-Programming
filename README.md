@@ -1,4 +1,4 @@
-<img src="./Python_Logo.png" alt="Python Logo" width="200"/>
+<img src="./Python_logo.png" alt="Python Logo" width="200"/>
 
 # My Python Programming
 The storage for all Python codes, projects, and works
