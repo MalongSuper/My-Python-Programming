@@ -1,4 +1,5 @@
 ![Python Logo](./Python-logo-notext.svg.png)
+<img src="./Python-logo-notext.svg.png" alt="Python Logo" width="200"/>
 
 # My-Python-Programming
 The storage for all Python codes, projects, and works
