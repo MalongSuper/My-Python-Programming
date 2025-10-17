@@ -1,8 +1,16 @@
-# This program makes a table of conversion from miles to kilometers
-Kilometers = 0
-print("Table of conversion from miles to kilometers")
-print("Miles\t\tKilometers")
+# This program displays a table of distances in miles
+# and their equivalent distances in kilometers
+# Assume the number
+Distance = 0
+Miles = 0
 # Display the table
-for Miles in range(1, 11):
-    Kilometers = Miles * 1.609
-    print(f'{Miles}\t\t\t{round(Kilometers, 3)}')
+print("Miles\t\tKilometers")
+print("-----------------------")
+# Display the loop
+for Miles in range(10, 90, 10):
+    Miles += Distance
+    # One mile is equivalent to 1.60934 kilometers
+    Kilometers = (Miles * 1.60934)
+    # Rounded to 2 decimal places
+    Round_Kilometers = round(Kilometers, 2)
+    print(f'{Miles}\t\t\t{Round_Kilometers}')
