@@ -1,4 +1,4 @@
-![Python Logo]([image_url_or_path](https://share.google/images/HLNI8GqE73wgxPGHU))
+![Python Logo]([https://share.google/images/HLNI8GqE73wgxPGHU])
 
 # My-Python-Programming
 The storage for all Python codes, projects, and works
