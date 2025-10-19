@@ -1,0 +1,120 @@
+[
+  {
+    "id": "Bef2bb580-e6bf-4efc-b3a6-b2414e12cdd7",
+    "customer": {
+      "email": "alice@example.com",
+      "name": "Alice"
+    },
+    "items": [
+      {
+        "title": "The Alchemist",
+        "price": 12.99,
+        "quantity": 3
+      }
+    ],
+    "total_amount": 38.97,
+    "payment": {
+      "id": "P01234",
+      "method": "Credit Card",
+      "status": "Confirmed"
+    },
+    "date_created": "2025-07-02T20:30:00"
+  },
+  {
+    "id": "Bcce632e1-cea0-47d5-883c-8c70403f4e8a",
+    "customer": {
+      "email": "alice@example.com",
+      "name": "Alice"
+    },
+    "items": [
+      {
+        "title": "Atomic Habits",
+        "price": 15.49,
+        "quantity": 3
+      }
+    ],
+    "total_amount": 46.47,
+    "payment_status": "Confirmed",
+    "payment": {
+      "id": "P63a9b226-4814-4e84-8921-889289b73fd5",
+      "method": "PayPal",
+      "status": "Confirmed"
+    },
+    "date_created": "2025-07-03T11:48:03.263206"
+  },
+  {
+    "id": "B8f1c0429-5f76-4e03-8e4f-123a3db77362",
+    "customer": {
+      "email": "alice@example.com",
+      "name": "Alice"
+    },
+    "items": [
+      {
+        "title": "Atomic Habits",
+        "price": 15.49,
+        "quantity": 1
+      }
+    ],
+    "total_amount": 15.49,
+    "payment_status": "Confirmed",
+    "payment": {
+      "id": "P84d18326-0f98-428d-a86d-89e8973e4cb0",
+      "method": "Credit Card",
+      "status": "Confirmed"
+    },
+    "coupon": null,
+    "date_created": "2025-07-03T12:06:54.614754"
+  },
+  {
+    "id": "Bd9359429-94cf-4b06-893d-a4dc6c79dffe",
+    "customer": {
+      "email": "alice@example.com",
+      "name": "Alice"
+    },
+    "items": [
+      {
+        "title": "1984",
+        "price": 10.0,
+        "quantity": 6
+      }
+    ],
+    "total_amount": 48.0,
+    "payment_status": "Confirmed",
+    "payment": {
+      "id": "Pa58fda9c-1e9d-4be5-ad86-5e89b7b192e3",
+      "method": "PayPal",
+      "status": "Confirmed"
+    },
+    "coupon": {
+      "code": "SAVE20",
+      "discount": 20
+    },
+    "date_created": "2025-07-03T12:07:52.373782"
+  },
+  {
+    "id": "B24396367-2ef0-48c1-8dbb-92b4b5d14662",
+    "customer": {
+      "email": "alice@example.com",
+      "name": "Alice"
+    },
+    "items": [
+      {
+        "title": "1984",
+        "price": 10.0,
+        "quantity": 11
+      }
+    ],
+    "total_amount": 71.5,
+    "payment_status": "Confirmed",
+    "payment": {
+      "id": "Pa31bd60c-e248-4a97-b14f-0c9e1daa2dae",
+      "method": "PayPal",
+      "status": "Confirmed"
+    },
+    "coupon": {
+      "code": "SAVE30",
+      "discount": 35
+    },
+    "date_created": "2025-07-03T17:27:34.994292"
+  }
+]

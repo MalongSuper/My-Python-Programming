@@ -1,0 +1,20 @@
+[
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "price": "$12.99",
+    "description": "A journey of self-discovery."
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "price": "$15.49",
+    "description": "Tiny changes, remarkable results."
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "price": "$10.00",
+    "description": "Dystopian society and surveillance."
+  }
+]

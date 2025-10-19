@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Alice",
+    "email": "alice@example.com",
+    "password": "pass123",
+    "role": "customer"
+  },
+  {
+    "name": "Bob",
+    "email": "admin@bookie.com",
+    "password": "adminpass12",
+    "role": "admin"
+  },
+  {
+    "name": "Whatever",
+    "email": "Name@gmail.com",
+    "password": "What123",
+    "role": "customer"
+  },
+  {
+    "name": "A",
+    "email": "A@example.com",
+    "password": "What123",
+    "role": "customer"
+  },
+  {
+    "name": "Whatever",
+    "email": "User@gmail.com",
+    "password": "What123",
+    "role": "customer"
+  },
+  {
+    "name": "Steve",
+    "email": "Steve@example.com",
+    "password": "Maj12345",
+    "role": "customer"
+  },
+  {
+    "name": "Ben",
+    "email": "B@example.com",
+    "password": "Ben123",
+    "role": "customer"
+  },
+  {
+  "name": "Clara",
+  "email": "clara@bookie.com",
+  "password": "admin123",
+  "role": "admin"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "user_email": "alice@example.com",
+    "code": "SAVE20",
+    "discount_percent": 20,
+    "expiry_date": "2025-12-31"
+  },
+  {
+    "user_email": "bob@example.com",
+    "code": "BOB10",
+    "discount_percent": 10,
+    "expiry_date": "2025-08-30"
+  },
+  {
+    "code": "SAVE30",
+    "discount_percent": 35,
+    "expiry_date": "2025-07-27",
+    "user_email": "alice@example.com"
+  }
+]

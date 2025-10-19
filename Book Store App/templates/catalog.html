@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bookie | Online Bookstore</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background-color: #f8f9fa; }
+    .navbar-brand { font-weight: bold; }
+    .book-card { transition: transform 0.2s; }
+    .book-card:hover { transform: scale(1.02); }
+    .clickable-card { cursor: pointer; }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Bookie</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          {% if user %}
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('home') }}">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('catalog') }}">Books</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('cart') }}">Cart</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('view_orders') }}">Your Orders</a></li>
+          {% endif %}
+
+          {% if user %}
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Welcome, {{ user.name }}</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('view_coupon') }}">Coupon</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('profile') }}">Profile</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('logout') }}">Logout</a></li>
+          {% else %}
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('login') }}">Login</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('register') }}">Register</a></li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Welcome Header -->
+  <header class="bg-primary text-white text-center py-5">
+    <h1>Welcome to Bookie</h1>
+    <p>Your one-stop shop for all kinds of books</p>
+    <div class="container">
+      <input id="searchBar" class="form-control form-control-lg mt-4" placeholder="Search books..." />
+    </div>
+  </header>
+
+  <!-- Book List Section -->
+  <section class="container py-5">
+    <div class="row" id="book-list">
+      <!-- Book cards will be generated dynamically -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Bookie. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const books = [
+      { title: 'The Alchemist', author: 'Paulo Coelho', price: '$12.99', description: 'A journey of self-discovery.' },
+      { title: 'Atomic Habits', author: 'James Clear', price: '$15.49', description: 'Tiny changes, remarkable results.' },
+      { title: '1984', author: 'George Orwell', price: '$10.00', description: 'Dystopian society and surveillance.' }
+    ];
+
+    const bookList = document.getElementById('book-list');
+
+    function renderBooks(filter = '') {
+      bookList.innerHTML = '';
+      books.filter(book => book.title.toLowerCase().includes(filter.toLowerCase())).forEach(book => {
+        const col = document.createElement('div');
+        col.className = 'col-md-4 mb-4';
+        col.innerHTML = `
+          <div class="card book-card h-100 clickable-card"
+          onclick="window.location='${'/book/'}${encodeURIComponent(book.title)}'">
+            <div class="card-body">
+              <h5 class="card-title">${book.title}</h5>
+              <h6 class="card-subtitle mb-2 text-muted">by ${book.author}</h6>
+              <p class="card-text">${book.description}</p>
+              <p class="card-text text-primary fw-bold">${book.price}</p>
+              <a href="${'/book/'}${encodeURIComponent(book.title)}"
+               class="btn btn-outline-primary w-100">View Details</a>
+            </div>
+          </div>
+        `;
+        bookList.appendChild(col);
+      });
+    }
+
+    document.getElementById('searchBar').addEventListener('input', (e) => {
+      renderBooks(e.target.value);
+    });
+
+    renderBooks();
+  </script>
+</body>
+</html>
+
