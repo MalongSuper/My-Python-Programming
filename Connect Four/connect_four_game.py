@@ -78,7 +78,7 @@ def exit_game():
 
 def main_menu():  # Main menu function
     # Logo image
-    logo_path = os.path.join("Connect_four_logo.png")
+    logo_path = os.path.join("connect_four_logo.png")
     logo_image = pygame.image.load(logo_path)
     resized_image = pygame.transform.scale(logo_image, (500, 150))
     # Create buttons
@@ -134,7 +134,7 @@ def show_start_menu():  # Function to show start menu
 
 def show_introduction():  # Function to show game introduction
     # Add the board image
-    board_image_path = os.path.join("Connect_four_board.png")
+    board_image_path = os.path.join("connect_four_board.png")
     board_image = pygame.image.load(board_image_path)
     resized_image = pygame.transform.scale(board_image, (300, 250))
     intro_text = ["Introduction: ",
