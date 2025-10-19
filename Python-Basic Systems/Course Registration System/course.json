@@ -1,0 +1,12 @@
+[
+    {
+        "course_id": "Courseb36cc647-51a3-4ea6-9bd1-6f1f4504a997",
+        "course_name": "Data Structures with Python",
+        "teacher": "T0ce21975-0a9e-486a-a75a-ad92698e5f70"
+    },
+    {
+        "course_id": "Course02d233cd-7e4c-4508-9fc5-90030a1e48ac",
+        "course_name": "Database Management",
+        "teacher": "T0ce21975-0a9e-486a-a75a-ad92698e5f70"
+    }
+]

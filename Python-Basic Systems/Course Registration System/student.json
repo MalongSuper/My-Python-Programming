@@ -1,0 +1,16 @@
+[
+    {
+        "student_id": "S6919f04c-3ffb-4853-9b3c-5f0a39df360f",
+        "full_name": "John Adam",
+        "username": "JohnA",
+        "email": "JohnA@gmail.com",
+        "password": "John123"
+    },
+    {
+        "student_id": "S6190edc3-ac08-411c-b738-728eff3ec16a",
+        "full_name": "George Wash",
+        "username": "GeorgeW",
+        "email": "GeorgeW@gmail.com",
+        "password": "George124"
+    }
+]
