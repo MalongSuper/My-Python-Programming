@@ -54,7 +54,7 @@ class Button:
 
 
 def main_menu():  # Main menu function
-    logo_path = os.path.join("Snake_game_logo.png")
+    logo_path = os.path.join("snake_game_logo.png")
     logo_image = pygame.image.load(logo_path)
     resized_image = pygame.transform.scale(logo_image, (600, 250))
     play_button = Button(300, 450, 200, 50, black, "PLAY", game_loop, white)
