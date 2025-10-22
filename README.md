@@ -51,3 +51,6 @@ https://dune-web-e44.notion.site/Data-Analysis-Visualization-with-Python-26f622d
 
 ### Language & Speech Technology with Python
 https://dune-web-e44.notion.site/Language-Speech-Technology-with-Python-272622d60556803b84b6d63e22730692?source=copy_link
+
+# My Course Books
+https://drive.google.com/drive/folders/1GtKikRTzWm5R_TpKrcOJgqJWGlkhlHFE?usp=sharing
