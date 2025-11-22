@@ -22,7 +22,7 @@ def main():
     fx = input("Enter exact equation f(x): ")
     fx = eval(f"lambda x: {fx}")
     df = derivative_one(fx, 5)
-    df2 = derivative_two(math.sin, 5)
+    df2 = derivative_two(fx, 5)
     print("First Derivative of quadratic equation:", df)
     print("Second Derivative of quadratic equation:", df2)
 
