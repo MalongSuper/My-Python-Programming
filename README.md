@@ -15,5 +15,3 @@ Thonny: https://thonny.org
 
 Python Compiler Online: https://www.programiz.com/python-programming/online-compiler/
 
-# My Course Books
-https://drive.google.com/drive/folders/1GtKikRTzWm5R_TpKrcOJgqJWGlkhlHFE?usp=sharing
