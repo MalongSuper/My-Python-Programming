@@ -6,7 +6,7 @@ import scipy as sp
 def trapezoid(f, a, b, n):  # Accuracy: O(h^2)
     # n: number of trapezoids
     # Formula: Ii = [f(xi) + f(xi + 1)] * h/2
-    h = (b - a) / (n - 1)
+    h = (b - a) / n 
     x = a
     S = 0.0
     # Divide into n panel of trapezoids equal to (n+1) of x
